@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/aitorias/result-summary-component](https://github.com/aitorias/result-summary-component)
+- Solution URL: [https://github.com/aitorias/results-summary-component](https://github.com/aitorias/results-summary-component)
 - Live Site URL: [https://aitorias.github.io/#/frontendmentor/results-summary](https://aitorias.github.io/#/frontendmentor/results-summary)
 
 ## My process
