@@ -1,0 +1,72 @@
+.skill {
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0.9rem 1rem;
+}
+
+.skillInfo {
+  align-items: center;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.skillName {
+  font-weight: 700;
+}
+
+.skillIcon {
+  display: inline-block;
+}
+
+.skillScore {
+  display: flex;
+  font-weight: 700;
+  gap: 0.5rem;
+}
+
+.skillOutOf {
+  color: inherit;
+  opacity: 0.4;
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.05);
+}
+
+.reaction .skillName {
+  color: var(--light-red);
+}
+
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+.memory .skillName {
+  color: var(--orange-yellow);
+}
+
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.05);
+}
+
+.verbal .skillName {
+  color: var(--green-teal);
+}
+
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.05);
+}
+
+.visual .skillName {
+  color: var(--cobalt-blue);
+}
+
+@media screen and (min-width: 767px) {
+  .skillName,
+  .skillValue,
+  .skillOutOf {
+    font-size: 18px;
+  }
+}

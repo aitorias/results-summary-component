@@ -1,0 +1,22 @@
+.results {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+@media screen and (min-width: 767px) {
+  .results {
+    border-radius: 2rem;
+    box-shadow: 0 20px 40px 10px var(--pale-blue);
+    flex-direction: row;
+    height: auto;
+    min-height: 512px;
+    max-width: 736px;
+    width: 100%;
+  }
+
+  .results > * {
+    max-width: 50%;
+  }
+}
